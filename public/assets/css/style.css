@@ -1,0 +1,158 @@
+/*
+FONTS FOR PAGE:
+font-family: 'Oswald', sans-serif;
+font-family: 'Syncopate', sans-serif;
+font-family: 'Slackey', cursive;
+font-family: 'Prosto One', cursive;
+*/
+
+/*
+COLOR BLOCKS:
+red: ff1000
+orange: ff7d00
+*/
+
+
+
+/** {
+  box-sizing: border-box;
+}*/
+
+body, html {
+/*	background-color: #ffffff;*/
+	font-family: 'Oswald', sans-serif;
+}
+
+a {
+	color: #000000;
+/*	background-color: #ffffff;*/
+}
+
+a:hover { 
+	color: #ff7d00;
+	background-color: #ff7d00;
+}
+
+#logoBlock {
+	background-color: #ffffff;
+	width: 600px;
+	margin-right: 100px;
+	margin-left: 150px;
+	margin-top: 10px;
+}
+
+#navColorBlock {
+
+
+}
+
+#mainSpace{
+	max-width: 960px;
+	margin: auto;
+    /*width: 100%;*/
+/*    border-style: solid;
+    border-top: thick #ff0000;*/
+    
+}
+
+div#soundWave {
+	background-image: url(../images/photo_lineSpray_angle_1200.jpg);
+    background-repeat: no-repeat;
+    width:1200px;
+    height:600px;
+    transition:2s;
+    -webkit-transition:2s;
+    -moz-transition:2s;
+    position:absolute;
+    right:calc(100% - 175px);
+}
+div#soundWave:hover {
+  right:100px;
+}
+
+h2.home {
+	margin-top: 75px;
+	margin-left: 1000px;
+	/* Safari */
+	-webkit-transform: rotate(-18deg);
+	/* Firefox */
+	-moz-transform: rotate(-18deg);
+	/* IE */
+	-ms-transform: rotate(-18deg);
+	/* Opera */
+	-o-transform: rotate(-18deg);
+	/* Internet Explorer */
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+h2.about {
+	margin-top: 85px;
+	margin-left: 980px;
+	/* Safari */
+	-webkit-transform: rotate(-10deg);
+	/* Firefox */
+	-moz-transform: rotate(-10deg);
+	/* IE */
+	-ms-transform: rotate(-10deg);
+	/* Opera */
+	-o-transform: rotate(-10deg);
+	/* Internet Explorer */
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);	
+}
+
+h2.projects {
+	margin-top: 65px;
+	margin-left: 1000px;	
+}
+
+#contact {
+	/*background-image: url(../images/polkaDots.jpg);*/
+	width: auto;
+	height: 350px;
+	margin-top: 600px;
+}
+
+#contactMe {
+	/*margin-left: 5px;*/
+}
+
+#connectMe {
+	margin-right: 20px;
+}
+
+/* FOOTER */
+
+footer {
+	margin-top: 600px;
+	width: auto;
+	align-self: center;
+	background-image: url(../images/polkaDots.jpg);
+}
+
+#myInfo {
+	margin-top: 50px;
+	margin-left: 175px;
+	border-radius: 25px;
+    padding: 20px; 
+}
+
+.logo {
+	margin-top: 45px;
+	margin-left: 100px;/*
+	margin-right: 10px;*/
+	border-radius: 25px;
+    padding: 20px; 
+}
+
+h3.panel {
+	font-size: 18px;
+}
+
+h2.copyright {
+	font-size: 35px;
+	color: #000000;
+	margin-bottom: 10px;
+}
+
+
+
