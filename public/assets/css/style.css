@@ -1,22 +1,26 @@
 /*
 FONTS FOR PAGE:
 font-family: 'Oswald', sans-serif;
-font-family: 'Syncopate', sans-serif;
-font-family: 'Slackey', cursive;
-font-family: 'Prosto One', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
 */
 
 /*
 COLOR BLOCKS:
 red: ff1000
 orange: ff7d00
+
+MAP BLOCKS:
+blue: #3c7ed2;
+yellowgreen: #deec46;
+hot pink: #ff7e9c;
 */
 
 
 
-/** {
+* {
   box-sizing: border-box;
-}*/
+}
 
 body, html {
 /*	background-color: #ffffff;*/
@@ -25,12 +29,11 @@ body, html {
 
 a {
 	color: #000000;
-/*	background-color: #ffffff;*/
 }
 
 a:hover { 
+/*	color: #ffffff;*/
 	color: #ff7d00;
-	background-color: #ff7d00;
 }
 
 #logoBlock {
@@ -42,8 +45,7 @@ a:hover {
 }
 
 #navColorBlock {
-
-
+	color: #ff7d00;
 }
 
 #mainSpace{
@@ -105,15 +107,17 @@ h2.projects {
 	margin-left: 1000px;	
 }
 
+/*h3 {
+	font-size: 20px;
+}
+*/
 #contact {
-	/*background-image: url(../images/polkaDots.jpg);*/
 	width: auto;
 	height: 350px;
 	margin-top: 600px;
 }
 
 #contactMe {
-	/*margin-left: 5px;*/
 }
 
 #connectMe {
@@ -122,22 +126,34 @@ h2.projects {
 
 /* FOOTER */
 
-footer {
+#myFooterMain {
 	margin-top: 600px;
 	width: auto;
+	/*height: 300px;*/
+	align-self: center;
+	background-image: url(../images/polkaDots.jpg);
+}
+
+footer {
+	margin-top: 20px;
+	width: auto;
+	/*height: 300px;*/
 	align-self: center;
 	background-image: url(../images/polkaDots.jpg);
 }
 
 #myInfo {
-	margin-top: 50px;
-	margin-left: 175px;
+	margin-top: 65px;
+	margin-left: 100px;
 	border-radius: 25px;
     padding: 20px; 
+    width: 400px;
+    height: 260px;
 }
 
 .logo {
-	margin-top: 45px;
+	vertical-align: center;
+	margin-top: 50px;
 	margin-left: 100px;/*
 	margin-right: 10px;*/
 	border-radius: 25px;
@@ -153,6 +169,174 @@ h2.copyright {
 	color: #000000;
 	margin-bottom: 10px;
 }
+
+/* ABOUT ME PAGE */
+
+#panelMap {
+	width: 1150px;
+	margin-top: 50px;
+}
+
+#usMap {
+	margin-top: 50px;
+}
+
+#ukMap {
+	margin-top: 50px;
+}
+
+#bio {
+	width: 960px;
+}
+
+#vaModBody {
+	background-color: #ff7d00;
+}
+
+#seattleModBody {
+	background-color: #3c7ed2;
+}
+
+#caModBody {
+	background-color: #deec46;
+}
+
+#ncModBody {
+	background-color: #ff1000;
+}
+
+#ukModBody {
+	background-color: #ff7e9c;
+}
+
+#bioText {
+	margin-left: 75px;
+	margin-top: 20px;
+}
+
+#funStuff{
+	width: 960px;
+/*	margin-top: 10px;*/
+}
+
+#bioPanel {
+	
+}
+
+.panel {
+    border: 0;
+}
+
+
+
+
+
+/*#vaImage {
+	background-image: url(../images/VA_291x600.jpg);
+	background-repeat: no-repeat;
+}*/
+
+/*#vaText, #waText {
+	margin-top: 10px;
+	margin-left: 600px;
+	margin-bottom: 10px;
+	border-radius: 25px;
+    padding: 20px; 
+    width: 400px;
+    height: 260px;
+	
+}
+
+#vaText {
+	background-color: #ff7d00;
+	
+}
+
+#waText {
+	background-color: #3c7ed2;
+}
+
+#waImage {
+	background-image: url(../images/WA_291x430.jpg);
+	background-repeat: no-repeat;
+	
+}*/
+
+/* ABOUT ALT */
+
+#stateImages {
+	margin-top: 50px;
+}
+
+#virginia {
+/*	margin-top: 75px;
+	margin-left: 100px;*/
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+#washington {
+/*	margin-top: 75px;
+	margin-left: 100px;*/
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+#california {
+/*	margin-top: 75px;
+	margin-left: 100px;*/
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+#london {
+/*	margin-top: 75px;
+	margin-left: 100px;*/
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+#northCarolina {
+/*	margin-top: 75px;
+	margin-left: 100px;*/
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+
+#miniBio {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+
+/* PROJECTS PAGE */
+
+#projectTable {
+	margin-top: 10px;
+	margin-left: 90px;
+	margin-right: 50px;
+	width: 960px;
+}
+
+table {
+	border-collapse:collapse; 
+	table-layout:fixed; 
+	width:960px;
+	/*margin-top: 50px;
+	margin-left: 25px;
+	margin-right: 25px;*/
+	/*font-family: 'Roboto Condensed', sans-serif;*/
+}
+
+table td {
+/*	border:solid 1px #000000;*/
+	width:100px; 
+	word-wrap:break-word;
+	text-align: center;
+	padding: 40px;
+}
+
+
+
+
+
 
 
 
